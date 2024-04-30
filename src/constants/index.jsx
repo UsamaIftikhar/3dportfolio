@@ -1,322 +1,385 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    linkedin,
-    portfolio,
-    dribble,
-    behance,
-    reactjs,
-    redux,
-    tailwind,
-    git,
-    wordpress,
-    bootstrap,
-    netlify,
-    figma,
-    avm,
-    threejs,
-    analytics,
-    dashboard,
-    Provid,
-    hoobank,
-    quote,
-    github,
-    portfoliosample,
-  } from "../assets";
-  
-  export const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
-    {
-      id: "work",
-      title: "Work",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
-  ];
-  
-  const services = [
-    {
-      title: "Front-End Web Developer",
-      icon: web,
-    },
-    {
-      title: "UI Designer",
-      icon: mobile,
-    },
-    {
-      title: "UX Designer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
-  ];
-  
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "wordpress",
-      icon: wordpress,
-    },
-    {
-      name: "bootstrap",
-      icon: bootstrap,
-    },
-  ];
-  
-  const experiences = [
-    {
-      title: "Web Designer",
-      company_name: "A.V.M Auto",
-      icon: avm,
-      iconBg: "#383E56",
-      date: "2020 -  2021",
-      points: [
-        "Analyzing the needs of customer in a website.",
-        "Designing User Interface (UI) for the problem statement.",
-        "Improving designs to make more user friendly.",
-        "User Experience improvements and feedbacks.",
-      ],
-    },
-    {
-      title: "Wordpress Developer",
-      company_name: "A.V.M Auto",
-      icon: avm,
-      iconBg: "#E6DEDD",
-      date: "2021 - 2022",
-      points: [
-        "Developing and maintaining Wordpress Site for A.V.M Auto The Car Body Shop based in Ahmedabad, Gujarat India.",
-        "Analyzing feedbacks and fixing bugs.",
-        "Search Engine Optimization.",
-        "Design Maintainence and hosting maintenance.",
-      ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      key: 1,
-      testimonial:
-        "Behance is a social media platform owned by Adobe whose main focus is to showcase and discover creative work.",
-      name: "Om Patel",
-      image: behance,
-      link: "https://www.behance.net/omthecreator"
-    },
-    {
-      key: 2,
-      testimonial:
-        "LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
-      name: "Om Patel",
-      image: linkedin,
-      link: "https://www.linkedin.com/in/om-patel-401068143/"
-    },
-    {
-      key: 3,
-      testimonial:
-        "Dribbble is a self-promotion and social networking platform for digital designers and creatives. It serves as a design portfolio.",
-      name: "Om Patel",
-      image: dribble,
-      link: "https://dribbble.com/om2121"
-    },
-    {
-      key: 4,
-      testimonial: "Also do check out my UI/UX Portfolio where I have shared by design studies.",
-      name: "Om Patel",
-      image: portfolio,
-      link: "https://omthecreator.netlify.app/",
-    },
-    {
-      key: 5,
-      testimonial: "Also do check out my Github Profile where I have shared all my codes from basic to advanced.",
-      name: "Om Patel",
-      image: github,
-      link: "https://github.com/omunite215",
-    }
-  ];
-  
-  const projects = [
-    {
-      name: "Random Quote Generator",
-      description: "A Fully Responsive Random Quote generating website project given by Free Code Camp while completing Front-End Libraries Certifications built using React.JS , Bootstrap CSS and HTML.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "bootstrap",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "quoteapi",
-          color: "orange-text-gradient",
-        },
-      ],
-      image: quote,
-      source_code_link: "https://github.com/omunite215/FCC-Random-Quote-Generator",
-      netlify_link: "https://randomquotegeneratorbyom.netlify.app/",
-    },
-    {
-      name: "Admin Dashboard UI",
-      description:
-        "React Admin Dashboard is a stunning web application that has a beautiful User Interface and has been built using advanced JavaScript concepts, React, and Tailwind CSS which has different graphs, stats and themes.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Syncfusion UI",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "green-text-gradient",
-        },
-      ],
-      image: dashboard,
-      source_code_link: "https://github.com/omunite215/React-Admin-DashBoard",
-      netlify_link: "https://reactadmindashboardbyom.netlify.app/",
-    },
-    {
-      name: "HooBank",
-      description:
-        "A responsive Bank HomePage showcasing different features such as various payment gateways integration, easy money transfer, advanced security, etc. It has a beautiful interface made using Tailwind CSS and React",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "green-text-gradient",
-        },
-      ],
-      image: hoobank,
-      source_code_link: "https://github.com/omunite215/hoobank",
-      netlify_link: "https://hoobankbyom.netlify.app/",
-    },
-    {
-      name: "Provid A Youtube Clone",
-      description:
-        "Provid is a YouTube clone project built with React, Material UI, and Tailwind CSS. The platform has been designed with a stunning dark mode that enhances the viewing experience. The user interface is intuitive and easy to navigate, ensuring that users can easily find the content they're looking for.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "green-text-gradient",
-        },
-        {
-          name: "materialui",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "rapidapi",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: Provid,
-      source_code_link: "https://github.com/omunite215/Provid-A-YouTube-Clone",
-      netlify_link: "https://providbyom.netlify.app/",
-    },
-    {
-      name: "Analytics HomePage",
-      description:
-        "A responsive HomePage which is a product page of an Analytics displaying its products features, clients, feedbacks and many more. It has a beautiful interface made using Tailwind CSS and React.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "green-text-gradient",
-        },
-      ],
-      image: analytics,
-      source_code_link: "https://github.com/omunite215/Analytics-Web-App",
-      netlify_link: "https://analyticsbyom.netlify.app/",
-    },
-    {
-      name: "A 3D Developer Portfolio",
-      description:
-        "A responsive 3D Portfolio website which is made using Three.js a cross-browser JavaScript library and application programming interface used to create and display animated 3D computer graphics in a web browser using WebGL. It has a beautiful interface made using Tailwind CSS and React.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "green-text-gradient",
-        },
-        {
-          name: "threejs",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "emailjs",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: portfoliosample,
-      source_code_link: "https://github.com/omunite215/portfolio",
-      netlify_link: "https://portfoliobyompatel.netlify.app/",
-    },
-  ];
-  
-  export { services, technologies, experiences, testimonials, projects };
+  mobile,
+  backend,
+  creator,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  linkedin,
+  portfolio,
+  dribble,
+  behance,
+  reactjs,
+  redux,
+  tailwind,
+  git,
+  wordpress,
+  bootstrap,
+  netlify,
+  figma,
+  avm,
+  threejs,
+  analytics,
+  dashboard,
+  Provid,
+  hoobank,
+  github,
+  portfoliosample,
+  vuejs,
+  nestjs,
+  nextjs,
+  tensorflow,
+  python,
+  cqr,
+  rentalcar,
+  evercare,
+  otobucks,
+  prosku,
+  shareverse
+} from "../assets";
+
+export const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "work",
+    title: "Work",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+];
+
+const services = [
+  {
+    title: "Full Stack Web Developer",
+    icon: web,
+  },
+  {
+    title: "Mobile App Developer",
+    icon: mobile,
+  },
+  {
+    title: "Backend Developer",
+    icon: creator,
+  },
+  {
+    title: "Machine Learning Developer",
+    icon: backend,
+  },
+];
+
+const technologies = [
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Vue JS",
+    icon: vuejs,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Tensorflow",
+    icon: tensorflow,
+  },
+  // {
+  //   name: "Next JS",
+  //   icon: nextjs,
+  // },
+  {
+    name: "Nest JS",
+    icon: nestjs,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "wordpress",
+    icon: wordpress,
+  },
+  // {
+  //   name: "bootstrap",
+  //   icon: bootstrap,
+  // },
+];
+
+const experiences = [
+  {
+    title: "Web Developer",
+    company_name: "Evercare",
+    icon: avm,
+    iconBg: "#383E56",
+    date: "2022 -  Present",
+    points: [
+      "Over 3 years of experience as a senior MEVN stack developer, showcasing expertise in Vue.js and Node.js.",
+      "Instrumental in the development of a cutting-edge doctor's app, contributing to its architecture, design, and functionality.",
+      "Demonstrated proficiency in Vue.js, bringing a dynamic and engaging user interface to the forefront of the doctor's web and mobile app, enhancing user experience.",
+      "Played a pivotal role in Node.js development, ensuring the backend of the doctor's app operated seamlessly, providing robust and reliable functionality.",
+    ],
+  },
+  {
+    title: "MERN Stack Developer",
+    company_name: "Technove",
+    icon: avm,
+    iconBg: "#E6DEDD",
+    date: "2021 - 2022",
+    points: [
+      "Developing and maintaining Ecommerce Site for an Australian Comapny",
+      "The business model was similar to airbnb",
+      "Made all components reuseable in nextjs",
+      "Design Maintainence and hosting maintenance.",
+    ],
+  },
+  {
+    title: "Wordpress Developer",
+    company_name: "Fiverr",
+    icon: avm,
+    iconBg: "#E6DEDD",
+    date: "2019 - 2022",
+    points: [
+      "Developing and maintaining Wordpress Site for many international companies",
+      "Developing custom plugins",
+      "Adding payment gateways",
+      "Analyzing feedbacks and fixing bugs.",
+      "Search Engine Optimization.",
+      "Design Maintainence and hosting maintenance.",
+    ],
+  },
+  {
+    title: "Shopify Developer",
+    company_name: "Fiverr",
+    icon: avm,
+    iconBg: "#E6DEDD",
+    date: "2019 - Present",
+    points: [
+      "Proficient in developing robust and scalable Shopify stores.",
+      "Specialized in customizing Shopify stores for unique business needs, including theme development and app integration.",
+      "Prioritizing user-friendly interfaces and optimized customer journeys for enhanced shopping experiences."
+    ],
+  },
+];
+
+const testimonials = [
+  {
+    key: 1,
+    testimonial:
+      "Behance is a social media platform owned by Adobe whose main focus is to showcase and discover creative work.",
+    name: "Om Patel",
+    image: behance,
+    link: "https://www.behance.net/omthecreator"
+  },
+  {
+    key: 2,
+    testimonial:
+      "LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
+    name: "Om Patel",
+    image: linkedin,
+    link: "https://www.linkedin.com/in/om-patel-401068143/"
+  },
+  {
+    key: 3,
+    testimonial:
+      "Dribbble is a self-promotion and social networking platform for digital designers and creatives. It serves as a design portfolio.",
+    name: "Om Patel",
+    image: dribble,
+    link: "https://dribbble.com/om2121"
+  },
+  {
+    key: 4,
+    testimonial: "Also do check out my UI/UX Portfolio where I have shared by design studies.",
+    name: "Om Patel",
+    image: portfolio,
+    link: "https://omthecreator.netlify.app/",
+  },
+  {
+    key: 5,
+    testimonial: "Also do check out my Github Profile where I have shared all my codes from basic to advanced.",
+    name: "Om Patel",
+    image: github,
+    link: "https://github.com/omunite215",
+  }
+];
+
+const projects = [
+  {
+    name: "CQR Wallet",
+    description: "A true Stablekoinonia with global transparent accountancy built on inflation-resistant precious metals. Redefine your private equity as a function of cash flow!",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "block chain",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      }
+    ],
+    image: cqr,
+    netlify_link: "https://staging.cqrvault.org/",
+  },
+  {
+    name: "Luxury Car Rental",
+    description:
+      "Rotana star luxury car rental Dubai is fairly and competitive price service. Choose your car from our fleet of luxury vehicles including Ferrari, BMW, Audi & more.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      }
+    ],
+    image: rentalcar,
+    netlify_link: "https://www.rotanastar.ae/",
+  },
+  {
+    name: "Evercare",
+    description:
+      "This web application provides a platform to patients or guardians with an ability to search and appoint caregivers. Caregivers can signup and build their profile.",
+    tags: [
+      {
+        name: "vuejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: evercare,
+    source_code_link: "https://github.com/omunite215/hoobank",
+    netlify_link: "https://www.yourevercare.com/",
+  },
+  {
+    name: "OTO Bucks",
+    description:
+      "The automobile industry has seen a radical change in the past decade. The advent of the digital age and the invention of artificial intelligence (AI) have revolutionized the way we drive and maintain our cars.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: otobucks,
+    source_code_link: "https://github.com/omunite215/Provid-A-YouTube-Clone",
+    netlify_link: "https://otobucks.com/",
+  },
+  {
+    name: "Prosku",
+    description:
+      "A cloud based system to deliver accuracy, efficiency and discipline in the physical stock environment that handles businesses across the 3PL Logistics, Distribution, Wholesale, Manufacturing and Retail sectors",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ruby on rails",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: prosku,
+    source_code_link: "https://github.com/omunite215/Analytics-Web-App",
+    netlify_link: "https://www.prosku.com/",
+  },
+  {
+    name: "Shareverse",
+    description:
+      "A product for Australlia through which people can rent and get things on rent based on their needs. Allowing users to use the potential of something which is not currently in use.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nestjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shareverse,
+    source_code_link: "https://github.com/omunite215/portfolio",
+    netlify_link: "https://shareverse.com.au/",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects };

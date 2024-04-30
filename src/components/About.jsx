@@ -41,19 +41,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-[3xl] leading-[30px]"
       >
-        As a talented Front-End Web Developer and UI/UX Designer, I have honed
-        my skills in working with a variety of JavaScript libraries, including
-        React.js and Three.js. Through my experience, I have developed a deep
-        understanding of how these libraries can be leveraged to create dynamic
-        and engaging user interfaces. In addition, I am a quick learner and have
-        worked on numerous projects using popular CSS frameworks such as
-        Tailwind and Bootstrap. I am confident in my ability to create sleek and
-        responsive designs that meet the specific needs of any project. With a
-        keen eye for detail and a passion for delivering high-quality work, I am
-        dedicated to creating beautiful and user-friendly experiences that
-        delight users.
+        I'm a results-driven Full Stack Developer with 3+ years of experience, 
+        proficient in ReactJS, VueJs, Redux, NextJS, NestJS, NodeJS, and decentralized 
+        protocols like Nostr. I navigate databases including MongoDB, Postgres, and MySQL 
+        with Sequelize. Utilizing tools like Visual Studio Code, Git, Jira, Figma, and 
+        Slack, I actively engage in projects, emphasizing open communication and 
+        innovative solutions. With a design background and strong programming skills, 
+        I specialize in React Native for mobile development, ensuring comprehensive 
+        applications with exceptional UI/UX.
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (
           <ServiceCard
             key={service.title}

@@ -14,6 +14,11 @@ import html from "./tech/html.webp";
 import javascript from "./tech/javascript.webp";
 import reactjs from "./tech/reactjs.webp";
 import redux from "./tech/redux.webp";
+import nestjs from "./tech/nestjs.png";
+import vuejs from "./tech/vuejs.png";
+import python from "./tech/python.png";
+import tensorflow from "./tech/tensorflow.png";
+import nextjs from "./tech/nextjs.png";
 import tailwind from "./tech/tailwind.webp";
 import typescript from "./tech/typescript.webp";
 import wordpress from "./tech/wordpress.webp";
@@ -34,7 +39,12 @@ import analytics from "./projectimg/analytics.webp";
 import dashboard from "./projectimg/dashboard.webp";
 import hoobank from "./projectimg/hoobank.webp";
 import Provid from "./projectimg/Provid.webp";
-import quote from "./projectimg/quote.webp";
+import cqr from "./projectimg/portfolio_1.png";
+import rentalcar from "./projectimg/portfolio_2.png";
+import evercare from "./projectimg/evercare.png";
+import otobucks from "./projectimg/otobucks.png";
+import prosku from "./projectimg/prosku.png";
+import shareverse from "./projectimg/shareverse.png";
 import portfoliosample from "./projectimg/portfoliosample.webp"
 
 export {
@@ -70,5 +80,15 @@ export {
   dashboard,
   hoobank,
   Provid,
-  quote
+  cqr,
+  nextjs,
+  nestjs,
+  vuejs,
+  tensorflow,
+  python,
+  rentalcar,
+  evercare,
+  otobucks,
+  prosku,
+  shareverse
 };

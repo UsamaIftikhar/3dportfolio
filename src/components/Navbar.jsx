@@ -46,7 +46,7 @@ const Navbar = () => {
         >
          <a href="https://github.com/omunite215"><img src={mylogo} alt="logo" className="w-9 h-9 object-contain" /></a> 
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Om &nbsp; <span className="sm:block hidden ">| omunite215</span>
+            Usama &nbsp; <span className="sm:block hidden ">| Top Rated</span>
           </p>
         </Link>
 

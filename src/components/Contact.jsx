@@ -26,13 +26,13 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    emailjs.send("service_91ssn8g", "template_jjegxdr", {
+    emailjs.send("service_ow3d3tp", "template_hri25b3", {
       from_name: form.name,
-      to_name: 'Om Patel',
+      to_name: 'Usama Iftikhar',
       from_email: form.email,
-      to_email: "omunite21@gmail.com",
+      to_email: "usamaiftikhar59@gmail.com",
       message: form.message
-    }, "VeFeVdEHL9F9_i6xp").then(() => {
+    }, "9IAT3qI4CGZ5ENYI3").then(() => {
       setLoading(false);
       alert("A humble thanks for reaching me out. I will respond to you as soon as possible.")
       setForm({
