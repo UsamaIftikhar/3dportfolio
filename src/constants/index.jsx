@@ -37,7 +37,12 @@ import {
   evercare,
   otobucks,
   prosku,
-  shareverse
+  shareverse,
+  daniel,
+  mr_sean,
+  ithrow,
+  natasha,
+  jonas,
 } from "../assets";
 
 export const navLinks = [
@@ -197,39 +202,44 @@ const testimonials = [
   {
     key: 1,
     testimonial:
-      "Behance is a social media platform owned by Adobe whose main focus is to showcase and discover creative work.",
-    name: "Om Patel",
-    image: behance,
+      "Great job! I highly recommend for webdesign and development job that you have. I've worked with him numerous times. He never disappoints.",
+    name: "Daniel Steven",
+    image: daniel,
+    country: 'United States',
     link: "https://www.behance.net/omthecreator"
   },
   {
     key: 2,
     testimonial:
-      "LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
-    name: "Om Patel",
-    image: linkedin,
+      "It was my pleasure to work with such a professional web developer who knows how to work with a non technical person. Loved the end results.",
+    name: "Esther",
+    image: mr_sean,
+    country: 'South Africa',
     link: "https://www.linkedin.com/in/om-patel-401068143/"
   },
   {
     key: 3,
     testimonial:
-      "Dribbble is a self-promotion and social networking platform for digital designers and creatives. It serves as a design portfolio.",
-    name: "Om Patel",
-    image: dribble,
+      "He is a very good communicator and makes sure that he is giving you the best website and product to make your money worth it. Highly recommend.",
+    name: "Jacknaan",
+    image: jonas,
+    country: 'United States',
     link: "https://dribbble.com/om2121"
   },
   {
     key: 4,
-    testimonial: "Also do check out my UI/UX Portfolio where I have shared by design studies.",
-    name: "Om Patel",
-    image: portfolio,
+    testimonial: "He is amazing communication was excellent i will continue to business with him. He is very talented and works hard for his clients to meet their satisfaction.",
+    name: "Natacha",
+    image: natasha,
+    country: 'United States',
     link: "https://omthecreator.netlify.app/",
   },
   {
     key: 5,
-    testimonial: "Also do check out my Github Profile where I have shared all my codes from basic to advanced.",
-    name: "Om Patel",
-    image: github,
+    testimonial: "Great communication and flexibility! He was always quick to respond, super polite, and able to provide advice and be flexible to my changing ideas.",
+    name: "Itrowbridge",
+    image: ithrow,
+    country: 'United States',
     link: "https://github.com/omunite215",
   }
 ];

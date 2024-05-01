@@ -31,6 +31,11 @@ import dribble from "./socialmedia/dribble.svg";
 import linkedin from "./socialmedia/linkedin.svg";
 import portfolio from "./socialmedia/portfolio.svg";
 
+import daniel from "./testimonials/daniel-photo.webp";
+import mr_sean from "./testimonials/mr-sean-photo.webp";
+import ithrow from "./testimonials/ithrow-photo.webp";
+import natasha from "./testimonials/natasha-photo.webp";
+import jonas from "./testimonials/jonas-photo.webp";
 
 import avm from "./company/avm.webp";
 import resume from "./resume.svg";
@@ -90,5 +95,10 @@ export {
   evercare,
   otobucks,
   prosku,
-  shareverse
+  shareverse,
+  daniel,
+  mr_sean,
+  ithrow,
+  natasha,
+  jonas,
 };
