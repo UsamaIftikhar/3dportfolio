@@ -3,7 +3,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../HigherOrderComponents";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
-// import Tilt from "react-tilt";
+import { Tilt } from "react-tilt";
 
 const FeedbackCard = ({
   index,
@@ -21,13 +21,13 @@ const FeedbackCard = ({
   //       }}
   //       className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
   //     ></Tilt>
-//   <Tilt
-//   options={{
-//     max: 45,
-//     scale: 1,
-//     speed: 450,
-//   }}
-// >
+  <Tilt
+  options={{
+    max: 45,
+    scale: 1,
+    speed: 450,
+  }}
+>
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
     className=" bg-gradient p-10 rounded-3xl xs:w-[320px] w-full"
@@ -48,7 +48,7 @@ const FeedbackCard = ({
         </div>
       </div>
   </motion.div>
-  // </Tilt>
+  </Tilt>
 
 );
 
