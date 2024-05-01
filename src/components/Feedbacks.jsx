@@ -61,7 +61,7 @@ const Feedbacks = () => {
   return (
     <div className="mt-12 bg-black-100 rounded-[20px]">
       <div
-        className={`sm:px-8 px-6 sm:py-16 py-10 bg-tertiary rounded-2xl min-h-[300px]`}
+        className={`sm:px-8 px-6 sm:py-16 py-10 bg-tertiary rounded-2xl sm:min-h-[300px] min-h-[230px]`}
       >
         <motion.div variants={textVariant()}>
           <h2 className={styles.sectionHeadText}>Testimonials</h2>
