@@ -1,9 +1,12 @@
-import { motion } from "framer-motion";
 import React from "react";
+import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import RotatingText from "./RotatingText"; // Import the RotatingText component
 
 const Hero = () => {
+  const texts = ["Usama", "Developer", "Designer"]; // Texts to rotate
+
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
@@ -14,12 +17,26 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF] ">Usama</span>
-          </h1>
+          <div className="flex">
+            <h1 className={`${styles.heroHeadText} text-white`}>
+              Hi, I'm{" "}
+              <RotatingText
+                texts={texts}
+                rotationInterval={2000} // Change text every 5 seconds
+                initial={{ y: "100%", opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                exit={{ y: "-120%", opacity: 0 }}
+                transition={{ type: "spring", damping: 25, stiffness: 300 }}
+                mainClassName="text-[#915EFF] inline-block"
+                splitBy="characters"
+                staggerDuration={0.05} // Stagger animation for characters
+                staggerFrom="first"
+              />
+            </h1>
+          </div>
           <p className={`${styles.heroSubText}`}>
-            A Senior Full Stack Developer{" "}
-            <br className="sm:block hidden" /> and Machine Learning Engineer
+            A Senior Full Stack Developer <br className="sm:block hidden" /> and
+            Machine Learning Engineer
           </p>
         </div>
       </div>
