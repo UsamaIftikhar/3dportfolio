@@ -9,7 +9,7 @@ const GradientBorder = ({
 }) => {
   return (
     <Component
-      className={`relative inline-block p-[2px] overflow-hidden rounded-[20px] ${className} shadow-card`}
+      className={`relative p-[2px] overflow-hidden rounded-[20px] ${className} shadow-card`}
       {...rest}
     >
       <div
